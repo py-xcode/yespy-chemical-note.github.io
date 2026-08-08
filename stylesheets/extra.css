@@ -1,0 +1,7 @@
+/* 合并单元格（rowspan / colspan）的内容水平、垂直居中
+   使用 !important 覆盖 markdown 表格产生的内联 text-align 样式 */
+.md-typeset table td[rowspan],
+.md-typeset table td[colspan] {
+  text-align: center !important;
+  vertical-align: middle !important;
+}
